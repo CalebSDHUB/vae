@@ -11,7 +11,7 @@ This project implements a Variational Autoencoder (VAE), a deep learning model t
 1. Clone the repository:
 ```bash
 git clone https://github.com/CalebSDHUB/vae
-cd caleb
+cd <project_directory>
 ```
 
 ## Requirements
@@ -20,7 +20,8 @@ This project uses Python 3.11.11 with `virtualenv` for package management.
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate  # On Windows: venv\Scripts\activate
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Usage
